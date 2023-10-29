@@ -545,7 +545,7 @@ public class EthernetNetworkFactory {
                             if (mNetworkAgent == null) return;
 
                             if (this == mNetworkAgent.getCallbacks()) {
-                                stop();
+                                //stop();
                             } else {
                                 Log.d(TAG, "Ignoring unwanted as we have a more modern " +
                                         "instance");
